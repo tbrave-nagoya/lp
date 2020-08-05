@@ -212,7 +212,7 @@ button:focus {
 #main-visual {
   background: url(../image/children-1822471.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-position: 0px -10px;
+  background-position: 0px -100px;
   height: 890px;
   }
 }
@@ -252,7 +252,7 @@ button:focus {
 
 @media (min-width: 768px) {
   #main-visual .contents h1 {
-    font-size: 75px;
+    font-size: 77px;
 }
 }
 
