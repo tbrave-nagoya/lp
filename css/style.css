@@ -246,7 +246,7 @@ button:focus {
   font-size: 50px;
   font-weight: 100;
   margin-bottom: 25px;
-  font-family: "Yu Mincho";
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
   text-shadow: 1px 1px 2px rgb(47, 47, 47); 
 }
 
