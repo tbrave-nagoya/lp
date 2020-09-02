@@ -214,10 +214,7 @@
  
  
  
- /* ==========================================================================
-  * # normalize
 
- 
  html {
      line-height: 1.15;
      /* 1 */
@@ -241,9 +238,7 @@
      padding-bottom: var(--vspace-1_25);
  }
  
- /* Correct the font size and margin on `h1` elements within `section` and
-  * `article` contexts in Chrome, Firefox, and Safari. */
- 
+
  h1 {
      font-size: 2em;
      margin: 0.67em 0;
@@ -257,50 +252,14 @@
  footer {
      background-color: var(--color-bg);
  }
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## grouping
-  * ------------------------------------------------------------------- */
- 
- /* 1. Add the correct box sizing in Firefox.
-  * 2. Show the overflow in Edge and IE. */
- 
- /* 1. Correct the inheritance and scaling of font size in all browsers.
-  * 2. Correct the odd `em` font sizing in all browsers. */
- 
- /* ------------------------------------------------------------------- 
-  * ## text-level semantics
-  * ------------------------------------------------------------------- */
- 
- /* Remove the gray background on active links in IE 10. */
- 
+
  a {
      background-color: transparent;
  }
  
- /* 1. Remove the bottom border in Chrome 57-
-  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
- 
- /* Add the correct font weight in Chrome, Edge, and Safari. */
- 
  strong {
      font-weight: bolder;
  }
- 
- /* 1. Correct the inheritance and scaling of font size in all browsers.
-  * 2. Correct the odd `em` font sizing in all browsers. */
- 
- /* Add the correct font size in all browsers. */
- 
- /* Prevent `sub` and `sup` elements from affecting the line height in
-  * all browsers. */
- 
- /* ------------------------------------------------------------------- 
-  * ## embedded content
-  * ------------------------------------------------------------------- */
- 
- /* Remove the border on images inside links in IE 10. */
  
  img {
      border-style: none;
@@ -359,29 +318,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      outline: 1px dotted ButtonText;
  }
  
- /* Correct the padding in Firefox. */
- 
- /* 1. Correct the text wrapping in Edge and IE.
-  * 2. Correct the color inheritance from `fieldset` elements in IE.
-  * 3. Remove the padding so developers are not caught out when they zero out
-  *    `fieldset` elements in all browsers. */
- 
- /* Add the correct vertical alignment in Chrome, Firefox, and Opera. */
- 
- /* Remove the default vertical scrollbar in IE 10+. */
- 
- /* 1. Add the correct box sizing in IE 10.
-  * 2. Remove the padding in IE 10. */
- 
- /* Correct the cursor style of increment and decrement buttons in Chrome. */
- 
- /* 1. Correct the odd appearance in Chrome and Safari.
-  * 2. Correct the outline style in Safari. */
- 
- /* Remove the inner padding in Chrome and Safari on macOS. */
- 
- /* 1. Correct the inability to style clickable types in iOS and Safari.
-  * 2. Change font properties to `inherit` in Safari. */
+
  
  ::-webkit-file-upload-button {
      -webkit-appearance: button;
@@ -390,23 +327,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      /* 2 */
  }
  
- /* ------------------------------------------------------------------- 
-  * ## interactive
-  * ------------------------------------------------------------------- */
- 
- /* Add the correct display in Edge, IE 10+, and Firefox. */
- 
- /* Add the correct display in all browsers. */
- 
- /* ------------------------------------------------------------------- 
-  * ## misc
-  * ------------------------------------------------------------------- */
- 
- /* Add the correct display in IE 10+. */
- 
- /* Add the correct display in IE 10. */
- 
- 
+
  
  /* ===================================================================
   * # basic/base setup styles
@@ -483,13 +404,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      border: none;
  }
  
- 
- /* ------------------------------------------------------------------- 
-  * ## inputs
-  * ------------------------------------------------------------------- */
- 
- 
- 
+
  /* ===================================================================
   * # Grid v3.0.0
   *
@@ -900,21 +815,6 @@ button, [type="button"], [type="reset"], [type="submit"] {
  
  
  /* ------------------------------------------------------------------- 
-  * ## responsive video container
-  * ------------------------------------------------------------------- */
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## floated image
-  * ------------------------------------------------------------------- */
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## tables
-  * ------------------------------------------------------------------- */
- 
- 
- /* ------------------------------------------------------------------- 
   * ## spacing
   * ------------------------------------------------------------------- */
  img, 
@@ -925,27 +825,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      margin-bottom: var(--vspace-1);
  }
  
- 
- 
- /* ===================================================================
-  * # preloader
-  *
-  * ------------------------------------------------------------------- */
- 
- /* dots jump */
- 
- /* dots fade */
- 
- /* dots pulse */
- 
- 
- 
- /* ===================================================================
-  * # forms 
-  *
-  * ------------------------------------------------------------------- */
- 
- 
+
  /* ------------------------------------------------------------------- 
   * ## style placeholder text
   * ------------------------------------------------------------------- */
@@ -962,12 +842,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      color: var(--color-placeholder);
  }
  
- 
- /* ------------------------------------------------------------------- 
-  * ## change autocomplete styles in Chrome
-  * ------------------------------------------------------------------- */
- 
- 
+
  
  /* ===================================================================
   * # buttons
@@ -1039,60 +914,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
  }
  
  
- 
- /* =================================================================== 
-  * # additional components
-  *
-  * ------------------------------------------------------------------- */
- 
- /* ------------------------------------------------------------------- 
-  * ## additional typo styles
-  * ------------------------------------------------------------------- */
- 
- /* line definition style 
-  * ----------------------------------------------- */
- 
- /* dictionary definition style 
-  * ----------------------------------------------- */
- 
- /** 
-  * Pull Quotes
-  * -----------
-  * markup:
-  *
-  * <figure class="pull-quote">
-  *		<blockquote>
-  *			<p></p>
-  *		</blockquote>
-  * </figure>
-  *
-  * --------------------------------------------------------------------- */
- 
- /** 
-  * Stats Tab
-  * ---------
-  * markup:
-  *
-  * <ul class="stats-tabs">
-  *		<li><a href="#">[value]<em>[name]</em></a></li>
-  *	</ul>
-  *
-  * Extend this object into your markup.
-  *
-  * --------------------------------------------------------------------- */
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## skillbars
-  * ------------------------------------------------------------------- */
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## alert box
-  * ------------------------------------------------------------------- */
- 
- 
- 
+
  /* ===================================================================
   * # common and reusable styles
   *
@@ -1206,11 +1028,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      margin-bottom: var(--vspace-0_5);
  }
  
- 
- /* ------------------------------------------------------------------- 
-  * ## slick slider 
-  * ------------------------------------------------------------------- */
- 
+
  
  /* ------------------------------------------------------------------- 
   * responsive:
@@ -1797,11 +1615,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      margin-bottom: calc(5.7 * var(--space));
      font-size: 2.9rem;
  }
- 
- /* main content social
-  * ----------------------------------------------- */
- 
- 
+
  /* ------------------------------------------------------------------- 
   * ## main video
   * ------------------------------------------------------------------- */
@@ -2258,18 +2072,7 @@ html.no-csstransitions .s-main_content {
      color: var(--color-r-blue);
  }
  
- /* .s-worries::before {
-     content: "";
-     display: block;
-     width: 28rem;
-     height: 17.6rem;
-     background-image: repeating-linear-gradient(135deg, transparent, transparent 6px, rgba(255, 255, 255, 1) 6px, rgba(255, 255, 255, 1) 12px );
-     opacity: .1;
-     position: absolute;
-     top: 0;
-     left: 50%;
- } */
- 
+
  .s-worries::after {
      content: "";
      display: block;
@@ -2515,16 +2318,7 @@ html.no-csstransitions .s-main_content {
      font-family: var(--font-3);
  }
  
- /* .solution-icon {
-     display: block;
-     width: calc(2.25 * var(--space));
-     height: calc(2.25 * var(--space));
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: contain;
-     margin: auto;
- } */
- 
+
  span.solution-icon.i_05::before {
      content: "\f466";
      font-family: "Font Awesome 5 Pro";
@@ -2739,17 +2533,7 @@ html.no-csstransitions .s-main_content {
      bottom: 3.9rem;
      left: 24rem;
  }
- 
- /* .folio-item_project-link::before {
-     display: block;
-     content: "";
-     height: 1px;
-     width: 3rem;
-     background-color: rgba(255, 255, 255, 0.3);
-     position: absolute;
-     top: 50%;
-     left: -3rem;
- } */
+
  
  .folio-item_project-link:hover, 
  .folio-item_project-link:focus, 
@@ -2879,18 +2663,7 @@ html.no-csstransitions .s-main_content {
      text-align: center;
  }
  
- /* #nagoya .article-title::after {
-     content: "";
-     display: block;
-     height: 1px;
-     width: 70%;
-     background-color: var(--color-border);
-     position: absolute;
-     left: 18.4em;
-     top: 5.3em;
-     opacity: .1;
- } */
- 
+
  #nagoya article:nth-child(3) h3::after {
      content: "";
      display: block;
@@ -3036,20 +2809,7 @@ html.no-csstransitions .s-main_content {
      padding-bottom: var(--vspace-0_25);
  }
  
- 
- 
- /* ===================================================================
-  * # clients
-  *
-  * ------------------------------------------------------------------- */
- 
- 
- 
- /* ------------------------------------------------------------------- 
-  * ## clients slider
-  * ------------------------------------------------------------------- */
- 
- 
+
  /* ------------------------------------------------------------------- 
   * ## testimonials
   * ------------------------------------------------------------------- */
@@ -3224,8 +2984,6 @@ html.no-csstransitions .s-main_content {
         font-size: var(--text-size);
     }
 }
-
-
 
  
  /* ===================================================================
