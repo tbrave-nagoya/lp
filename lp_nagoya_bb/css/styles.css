@@ -2804,9 +2804,9 @@ html.no-csstransitions .s-main_content {
   * # banners
   *
   * ------------------------------------------------------------------- */
-   section.banners {
-     padding-top: var(--vspace-1_25);
-     padding-bottom: var(--vspace-0_25);
+   article.banners {
+    margin-top: var(--vspace-1_25);
+    margin-bottom: 0;
  }
  
 
