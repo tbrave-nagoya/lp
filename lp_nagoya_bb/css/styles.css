@@ -2770,7 +2770,7 @@ html.no-csstransitions .s-main_content {
  
  }
  
- .s-request h4 {
+ .s-request .plan h3 {
      padding: calc(0.5 * var(--space)) 0rem;
      text-align: center;
  }
