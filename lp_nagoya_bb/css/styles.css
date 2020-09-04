@@ -1568,7 +1568,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
      font-size: 22rem;
      line-height: 1;
      color: var(--color-1);
-     margin-bottom: calc(3 * var(--space));
+     margin-bottom: calc(2.2 * var(--space));
      position: relative;
  }
  
@@ -1622,7 +1622,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
  .s-main_video {
      position: absolute;
      right: 10.4rem;
-     bottom: 31vh;
+     bottom: 26vh;
  }
  
  .s-main_video svg {
@@ -1723,8 +1723,8 @@ html.ss-loaded .s-main_content {
 html.ss-loaded .s-main_content-worries {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 12s;
-    animation-duration: 12s;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
     -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     -webkit-animation-fill-mode: both;
